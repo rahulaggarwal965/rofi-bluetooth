@@ -1,5 +1,5 @@
-#ifndef __CONSTANTS_H__
-#define __CONSTANTS_H__
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
 
 #include "bluetooth_internal.h"
 

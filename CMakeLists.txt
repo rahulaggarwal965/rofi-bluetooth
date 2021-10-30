@@ -31,15 +31,3 @@ target_link_libraries(bluetooth
 )
 
 install(TARGETS bluetooth DESTINATION ${ROFI_PLUGINS_DIR})
-
-
-
-# Manpage
-
-# add_custom_command(OUTPUT "${CMAKE_CURRENT_SOURCE_DIR}/doc/rofi-file-browser-extended.1.gz"
-#                    COMMAND gzip -kf "${CMAKE_CURRENT_SOURCE_DIR}/doc/rofi-file-browser-extended.1"
-#                    COMMENT "Packing manpage")
-
-# add_custom_target(manpage ALL DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/doc/rofi-file-browser-extended.1.gz")
-
-# install(FILES "doc/rofi-file-browser-extended.1.gz" DESTINATION "/usr/share/man/man1")

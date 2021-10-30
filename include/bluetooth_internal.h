@@ -1,5 +1,5 @@
-#ifndef __BLUETOOTH_INTERNAL_H__
-#define __BLUETOOTH_INTERNAL_H__
+#ifndef BLUETOOTH_INTERNAL
+#define BLUETOOTH_INTERNAL
 
 #include <stdint.h>
 
